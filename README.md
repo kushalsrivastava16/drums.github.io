@@ -1,1 +1,2 @@
-# drums.github.io
+# Drum Kit
+Play drum online with just the clicks.
