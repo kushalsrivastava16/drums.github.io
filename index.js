@@ -6,10 +6,10 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function (){
   makeSound(buttonInnerHTML)
   }
 });
-}
 document.addEventListener("keypress",function(event){
   makeSound(event.key);
 });
+}
 function makeSound(key){
   switch (key) {
      case "W":
