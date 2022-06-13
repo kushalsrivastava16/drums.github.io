@@ -3,13 +3,13 @@
 for( var i=0 ; i < document.querySelectorAll(".drum").length ; i++){
 document.querySelectorAll(".drum")[i].addEventListener("click", function (){
   var buttonInnerHTML = this.innerHTML;
-  makeSound(buttonInnerHTML)
+  makeSound(buttonInnerHTML);
   }
 });
-document.addEventListener("keypress",function(event){
+}
+document.addEventListener("keypress", function(event){
   makeSound(event.key);
 });
-}
 function makeSound(key){
   switch (key) {
      case "W":
